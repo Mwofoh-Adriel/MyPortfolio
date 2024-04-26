@@ -7,6 +7,9 @@
   list-style: none;  /* removes the bullet points from all lists */
 }
 
+html{
+  scroll-behavior: smooth;
+}
 .header{  
   position: fixed; /* positions the header relative to the browser window, It will stay in the same place even if the page is scrolled */
   top: 0;
@@ -279,11 +282,11 @@ transition: o.3s ease;
 
 .footer ul li a:hover{
 border-bottom: 3px solid orangered;
-}
+} 
 
 .footer ul li{
-display: inline-block; /*  changes the display type of the <li> elements to inline-block */
-padding: 0 15px; /* 0 is the top and bottom padding, and 15px is the left and right padding */
+display: inline-block;   /*changes the display type of the <li> elements to inline-block*/ 
+padding: 0 15px;  /*0 is the top and bottom padding, and 15px is the left and right padding */
 }
 
 .footer .copyright{
