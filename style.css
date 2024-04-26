@@ -77,11 +77,11 @@ color: white; /* set the color of the text to white */
 
 .home{
 width: 100%; /*  sets the width of the .home element to 100% of its parent element's width */
-min-height: 105vh; /* sets the minimum height of the .home element to 105% of the viewport's height */
+min-height: 100vh; /* sets the minimum height of the .home element to 105% of the viewport's height */
 background: rgb(241, 241, 241); /* sets the background color of the .home element to a light gray color */
 display: flex; /* applies a flexible box layout to the .home element */
 align-items: center;  /* aligns the items in the .home element vertically in the center */
-gap: 7cm; /*  sets the gap between the flex items in the .home element to 7cm */
+gap: 14%; /*  sets the gap between the flex items in the .home element to 7cm */
 padding: 30px 11% 0; /* 30px is the top padding, 11% is the right and left padding, and 0 is the bottom padding */
 }
 
@@ -99,14 +99,14 @@ line-height: 1.2; /* sets the distance between lines of text, A line-height of 1
 }
 
 .home-content p{
-font-size: 15px; /* sets the font size of the text in these <p> elements to 15 pixels */
-margin: 25px 0 30px;
+font-size: 20px; /* sets the font size of the text in these <p> elements to 15 pixels */
+margin: 25px 0 15px;
 }
 
 .btn-box{
 width: 345px; /* set the width of the .btn-box element to 345 pixels  */
 display: flex;
-gap: 2cm;
+gap: 4%;
 }
 
 .btn-1{
@@ -169,44 +169,39 @@ display: flex; /* applies a flexible layout to the .about */
 justify-content: center; /* distributes the items in the .about evenly along the horizontal line with equal space between them */
 align-items: center;
 padding: 12% 8%;
-gap: 7cm;
-background: black;
+gap: 7%;
+background: rgba(0, 0, 0, 0.87);
 }
 
 .about-img img{
 position: relative; /* sets the position of an element relative to its normal position */
 width: 550px;
 box-shadow: 0 0 25px orangered,
-          0 0 25px orangered; /* creates a glowing effect */
+          0 0 25px  orangered; /* creates a glowing effect */
 border-radius: 50%;
 }
 
 .about-content h2{
 text-align: left;
-color: white; /* set the color of the text to white */
+color: whitesmoke; /* set the color of the text to white */
 font-size: 40px;
 }
 
-/* .about-content h3{
-font-size: 55px;
-color: white;  set the color of the text to white 
-}  */
-
 .about-content p{
-color: white;
+color: whitesmoke ;
 font-size: 20px;
 margin: 2cm 0 3cm; /* 2cm sets the top margin, 0 sets the right and left margins, 3cm sets the bottom margin */
 }
 
 .contact-form h2{
 text-align: center; /* Centralised the text */
-margin-top: 3cm;
+margin-top: 15%;
 margin-bottom: 1cm;
 font-size: 36px;
 }
 
 .contact-form form{
-max-width: 12cm;
+max-width: 30%;
 margin: 1rem auto; /* 1rem sets the top and bottom margins, auto sets the right and left margins(when auto is used, the browser automatically calculates the margins) */
 text-align: center;  /* Centralised the text */
 margin-bottom: 3cm;
@@ -215,7 +210,7 @@ margin-bottom: 3cm;
 .contact-form form .input-box{
 display: flex;
 justify-content: center;
-flex-wrap: wrap; /* wraps the text */
+flex-wrap: wrap; /* wraps the the boxes*/
 }
 
 .contact-form form .input-box input,
